@@ -1,0 +1,12 @@
+package com.spring.form.employee.controller;
+
+
+
+
+public class EmpController {
+	
+	
+        return new ModelAndView("viewemp","list",list);  
+    }  
+
+}

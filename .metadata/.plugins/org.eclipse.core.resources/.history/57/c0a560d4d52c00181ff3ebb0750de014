@@ -1,0 +1,17 @@
+package pack;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Date {
+
+	
+	public static void main(String[] args) {
+		LocalDate date3 = LocalDate.of(2017, Month.FEBRUARY, 10);
+	      System.out.println("date3: " + date3);
+	      
+	      LocalDate sixtyfifth2017 = LocalDate.ofYearDay(2017, 65);
+	      System.out.println(sixtyfifth2017);
+
+	}
+}

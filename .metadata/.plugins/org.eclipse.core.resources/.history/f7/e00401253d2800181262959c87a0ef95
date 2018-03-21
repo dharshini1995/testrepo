@@ -1,0 +1,13 @@
+package com.today;
+
+public class FirstSpringMVCController {
+	
+	
+	public class FirstSpringMVCConroller
+	{
+		
+		public String sayHello()
+		return "hello";
+	}
+
+}
