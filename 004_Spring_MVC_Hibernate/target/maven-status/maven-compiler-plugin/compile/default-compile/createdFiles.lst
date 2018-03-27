@@ -1,0 +1,5 @@
+com\springmvc\hibernate\bean\EmployeeBean.class
+com\springmvc\hibernate\controller\EmployeeController.class
+com\springmvc\hibernate\entity\EmployeeEntity.class
+com\springmvc\hibernate\dao\EmployeeDAO.class
+com\springmvc\hibernate\service\EmployeeService.class

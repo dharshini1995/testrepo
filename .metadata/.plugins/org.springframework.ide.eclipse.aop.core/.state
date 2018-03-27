@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="002SpringMVCFormExample"/>
+<aop-project name="004_Spring_MVC_Hibernate"/>
 <aop-project name="014springboot"/>
+<aop-project name="005_SpringBoot_Data"/>
 </aop-reference-model>

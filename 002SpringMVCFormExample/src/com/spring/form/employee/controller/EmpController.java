@@ -28,6 +28,7 @@ public class EmpController {
     public ModelAndView save(@ModelAttribute("emp") Emp emp){  
       
         System.out.println(emp.getName()+" "+emp.getSalary()+" "+emp.getDesignation());  
+        
       
         return new ModelAndView("redirect:/viewemp.spring");
     }  
@@ -41,7 +42,12 @@ public class EmpController {
         list.add(new Emp(3,"sachin",55000f,"Care Taker"));  
           
         return new ModelAndView("viewemp","list",list);  
-    }  
+    } 
+    
+    @RequestMapping("/viewEmployee")
+    
+    	public void 
+    
     
     @RequestMapping(value="/home", method=RequestMethod.GET)
     public ModelAndView welcome()
